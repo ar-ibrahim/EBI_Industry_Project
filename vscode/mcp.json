@@ -1,0 +1,16 @@
+{
+    "servers": {
+        "ols4": {
+            "type": "http",
+            "url": "http://www.ebi.ac.uk/ols4/api/mcp"
+        },
+        "artl-mcp": {
+            "command": "uvx",
+            "args": ["artl-mcp"]
+        },
+        "clinical-trials": {
+            "command": "npx",
+            "args": ["bach-clinical-trials"]
+        }
+    }
+}
