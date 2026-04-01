@@ -1,0 +1,3057 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.org/tma#"
+     xml:base="http://example.org/tma"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:tma="http://example.org/tma#">
+    <owl:Ontology rdf:about="http://example.org/tma">
+        <terms:description>OWL representation of Thrombotic Microangiopathy (TMA) pathophysiology from the dismech knowledge base, integrating OBO Foundry ontology terms (MONDO, HP, CL, GO, OGG, CHEBI, NCIT) with RO semantic relations from TMA_RO_Relations.md.</terms:description>
+        <terms:title>Thrombotic Microangiopathy Application Ontology</terms:title>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label>has_broad_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <rdfs:label>has_narrow_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id">
+        <rdfs:label>id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+
+
+    <!-- http://example.org/tma#hasNCTId -->
+
+    <owl:AnnotationProperty rdf:about="http://example.org/tma#hasNCTId">
+        <rdfs:label>has NCT identifier</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://example.org/tma#hasTrialPhase -->
+
+    <owl:AnnotationProperty rdf:about="http://example.org/tma#hasTrialPhase">
+        <rdfs:label>has trial phase</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://example.org/tma#hasTrialStatus -->
+
+    <owl:AnnotationProperty rdf:about="http://example.org/tma#hasTrialStatus">
+        <rdfs:label>has trial status</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000057 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000057">
+        <oboInOwl:id>RO:0000057</oboInOwl:id>
+        <rdfs:label xml:lang="en">has participant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002200 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002200">
+        <oboInOwl:id>RO:0002200</oboInOwl:id>
+        <rdfs:label xml:lang="en">has phenotype</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002606 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002606">
+        <oboInOwl:id>RO:0002606</oboInOwl:id>
+        <rdfs:label xml:lang="en">is substance that treats</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002610 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002610">
+        <oboInOwl:id>RO:0002610</oboInOwl:id>
+        <rdfs:label xml:lang="en">correlated with</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004003 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004003">
+        <oboInOwl:id>RO:0004003</oboInOwl:id>
+        <rdfs:label xml:lang="en">has material basis in germline mutation in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004006 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004006">
+        <oboInOwl:id>RO:0004006</oboInOwl:id>
+        <rdfs:label xml:lang="en">has partial material basis in germline mutation in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004020 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004020">
+        <oboInOwl:id>RO:0004020</oboInOwl:id>
+        <rdfs:label xml:lang="en">disease has basis in dysfunction of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004021 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004021">
+        <oboInOwl:id>RO:0004021</oboInOwl:id>
+        <rdfs:label xml:lang="en">disease has basis in disruption of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004022 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004022">
+        <oboInOwl:id>RO:0004022</oboInOwl:id>
+        <rdfs:label xml:lang="en">disease has basis in feature</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004023 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004023">
+        <oboInOwl:id>RO:0004023</oboInOwl:id>
+        <rdfs:label xml:lang="en">causal relationship with disease as subject</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004024 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004024">
+        <oboInOwl:id>RO:0004024</oboInOwl:id>
+        <rdfs:label xml:lang="en">disease causes disruption of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004025 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004025">
+        <oboInOwl:id>RO:0004025</oboInOwl:id>
+        <rdfs:label xml:lang="en">disease causes dysfunction of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004029 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004029">
+        <oboInOwl:id>RO:0004029</oboInOwl:id>
+        <rdfs:label xml:lang="en">disease has feature</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+
+
+    <!-- http://example.org/tma#investigatesTherapy -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/tma#investigatesTherapy">
+        <rdfs:label>investigates therapy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/tma#targetedDisease -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/tma#targetedDisease">
+        <rdfs:label>targeted disease</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/tma#ADAMTS13DeficiencyAndUltraLargeVWFMultimers -->
+
+    <owl:Class rdf:about="http://example.org/tma#ADAMTS13DeficiencyAndUltraLargeVWFMultimers">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000115"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">In TTP, severe deficiency of ADAMTS13 (a disintegrin and metalloproteinase with a thrombospondin type 1 motif, member 13) prevents cleavage of ultra-large von Willebrand factor multimers (UL-VWF) secreted by endothelial cells. UL-VWF strings recruit platelets under high shear stress, forming platelet-rich microthrombi predominantly in arterioles and capillaries. This leads to consumptive thrombocytopenia and mechanical red blood cell fragmentation (schistocyte formation).</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">ADAMTS13 Deficiency and Ultra-Large VWF Multimers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/tma#ComplementAlternativePathwayDysregulation -->
+
+    <owl:Class rdf:about="http://example.org/tma#ComplementAlternativePathwayDysregulation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000115"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">In atypical HUS, loss-of-function mutations in complement regulatory proteins (CFH, CFI, MCP/CD46) or gain-of-function mutations in complement activators (CFB, C3) lead to uncontrolled complement activation on endothelial cell surfaces. Unopposed C3 convertase activity generates C3b deposition and membrane attack complex (MAC) formation, causing direct endothelial lysis and activation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Complement Alternative Pathway Dysregulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/tma#EndothelialCellInjuryAndActivation -->
+
+    <owl:Class rdf:about="http://example.org/tma#EndothelialCellInjuryAndActivation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000115"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The unifying initiating event in all TMA subtypes is injury to microvascular endothelial cells. Endothelial damage exposes subendothelial matrix, triggers von Willebrand factor (VWF) release, and activates the coagulation cascade. Endothelial activation leads to upregulation of adhesion molecules, procoagulant surface expression, and loss of anticoagulant thrombomodulin expression.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Endothelial Cell Injury and Activation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/tma#MicroangiopathicHemolyticAnemiaProcess -->
+
+    <owl:Class rdf:about="http://example.org/tma#MicroangiopathicHemolyticAnemiaProcess">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000232"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Red blood cells passing through partially occluded microvessels are subjected to mechanical shear forces, leading to fragmentation and formation of schistocytes. This non-immune hemolytic anemia is characterized by elevated lactate dehydrogenase (LDH), low haptoglobin, elevated reticulocyte count, and negative direct antiglobulin test (Coombs test).</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Microangiopathic Hemolytic Anemia (Pathophysiological Process)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/tma#OrganIschemiaAndEndOrganDamage -->
+
+    <owl:Class rdf:about="http://example.org/tma#OrganIschemiaAndEndOrganDamage">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0002188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Microvascular thrombosis causes ischemia in multiple organ systems. In TTP, neurological involvement predominates (confusion, seizures, stroke). In HUS, renal involvement predominates with acute kidney injury, often requiring dialysis. Myocardial, gastrointestinal, and hepatic involvement can also occur, contributing to the high morbidity of TMA syndromes.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Organ Ischemia and End-Organ Damage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/tma#PlateletAggregationAndMicrovascularThrombosis -->
+
+    <owl:Class rdf:about="http://example.org/tma#PlateletAggregationAndMicrovascularThrombosis">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000233"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Activated platelets adhere to damaged endothelium and ultra-large VWF multimers, forming platelet-rich microthrombi in arterioles and capillaries. These thrombi cause mechanical destruction of erythrocytes passing through narrowed vessels (producing schistocytes), consumptive thrombocytopenia, and downstream ischemia to vital organs including the brain and kidneys.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Platelet Aggregation and Microvascular Thrombosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/tma#ShigaToxinMediatedEndothelialInjury -->
+
+    <owl:Class rdf:about="http://example.org/tma#ShigaToxinMediatedEndothelialInjury">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0002188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">In STEC-HUS, Shiga toxin (Stx1, Stx2) produced by enterohemorrhagic E. coli binds to globotriaosylceramide (Gb3) receptors expressed on renal tubular and glomerular endothelial cells. Internalized toxin inhibits protein synthesis, triggering endothelial apoptosis and activating inflammatory pathways. Stx also induces upregulation of Gb3 expression and promotes thrombotic microangiopathy predominantly in the kidney.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Shiga Toxin-Mediated Endothelial Injury</rdfs:label>
+    </owl:Class>
+    
+
+
+
+
+
+    <!-- http://example.org/tma#ClinicalTrial -->
+
+    <owl:Class rdf:about="http://example.org/tma#ClinicalTrial">
+        <obo:IAO_0000115 xml:lang="en">A clinical trial investigating a therapeutic intervention for a disease.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Clinical Trial</rdfs:label>
+    </owl:Class>
+    
+
+
+
+
+    <!-- http://example.org/tma#TherapeuticAgent -->
+
+    <owl:Class rdf:about="http://example.org/tma#TherapeuticAgent">
+        <obo:IAO_0000115 xml:lang="en">A therapeutic agent used or investigated in the treatment of thrombotic microangiopathy or its subtypes.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Therapeutic Agent</rdfs:label>
+    </owl:Class>
+    
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50860 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50860">
+        <obo:IAO_0000115 xml:lang="en">Any molecular entity that contains carbon.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">organic entity</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:50860</oboInOwl:id>
+        <rdfs:label xml:lang="en">organic molecular entity</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33635 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33635">
+        <oboInOwl:hasRelatedSynonym xml:lang="en">polycyclic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:33635</oboInOwl:id>
+        <rdfs:label xml:lang="en">polycyclic compound</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33832 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33832">
+        <obo:IAO_0000115 xml:lang="en">Any organic molecule that consists of atoms connected in the form of a ring.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">organic cyclic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:33832</oboInOwl:id>
+        <rdfs:label xml:lang="en">organic cyclic compound</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115 xml:lang="en">'Lipids' is a loosely defined term for substances of biological origin that are soluble in nonpolar solvents. They consist of saponifiable lipids, such as glycerides (fats and oils) and phospholipids, as well as nonsaponifiable lipids, principally steroids.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>kegg.compound:C01356</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">lipids</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>CHEBI:18059</oboInOwl:id>
+        <rdfs:label xml:lang="en">lipid</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51958 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51958">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33635"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33832"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">organic polycyclic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:51958</oboInOwl:id>
+        <rdfs:label xml:lang="en">organic polycyclic compound</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35341">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18059"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51958"/>
+        <obo:IAO_0000115 xml:lang="en">Any of naturally occurring compounds and synthetic analogues, based on the cyclopenta[a]phenanthrene carbon skeleton, partially or completely hydrogenated; there are usually methyl groups at C-10 and C-13, and often an alkyl group at C-17. By extension, one or more bond scissions, ring expansions and/or ring contractions of the skeleton may have occurred. Natural steroids are derived biogenetically from squalene which is a triterpene.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>kegg.compound:C00377</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">steroids</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>CHEBI:35341</oboInOwl:id>
+        <rdfs:label xml:lang="en">steroid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50858 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50858">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35341"/>
+        <obo:IAO_0000115 xml:lang="en">A natural or synthetic analogue of the hormones secreted by the adrenal gland.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">corticoides</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">corticosteroids</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:50858</oboInOwl:id>
+        <rdfs:label xml:lang="en">corticosteroid</rdfs:label>
+    </owl:Class>
+    
+
+
+
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_229652 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_229652">
+        <obo:IAO_0000115 xml:lang="en">A member of the class of indoles that is a potent inhibitor of complement factor B with potential immunomodulatory activity. It is a twice-daily oral complement alternative pathway inhibitor that blocks factor B, preventing C3 convertase assembly and downstream C5 activation.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cas:1644670-37-0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>drugbank:DB16200</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">4-{(2S,4S)-4-ethoxy-1-[(5-methoxy-7-methyl-1H-indol-4-yl)methyl]piperidin-2-yl}benzoic acid</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">LNP023</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">LNP-023</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">NVP-LNP023</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:229652</oboInOwl:id>
+        <rdfs:label xml:lang="en">iptacopan</rdfs:label>
+    </owl:Class>
+    
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000">
+        <obo:IAO_0000115 xml:lang="en">A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>FMA:68646</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0005623</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D002477</oboInOwl:hasDbXref>
+        <oboInOwl:id>CL:0000000</oboInOwl:id>
+        <rdfs:label xml:lang="en">cell</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <oboInOwl:id>CL:0000151</oboInOwl:id>
+        <rdfs:label xml:lang="en">secretory cell</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000211">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <obo:IAO_0000115 xml:lang="en">A cell whose function is determined by the generation or the reception of an electric signal.</obo:IAO_0000115>
+        <oboInOwl:id>CL:0000211</oboInOwl:id>
+        <rdfs:label xml:lang="en">electrically active cell</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000457">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000151"/>
+        <oboInOwl:id>CL:0000457</oboInOwl:id>
+        <rdfs:label xml:lang="en">biogenic amine secreting cell</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000988 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000988">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <obo:IAO_0000115 xml:lang="en">A cell of a hematopoietic lineage.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>BTO:0000574</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:70366</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">haematopoietic cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">hemopoietic cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>CL:0000988</oboInOwl:id>
+        <rdfs:label xml:lang="en">hematopoietic cell</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_1000497 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1000497">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000255"/>
+        <obo:IAO_0000115 xml:lang="en">A cell that is part of a kidney.</obo:IAO_0000115>
+        <oboInOwl:id>CL:1000497</oboInOwl:id>
+        <rdfs:label xml:lang="en">kidney cell</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000988"/>
+        <obo:IAO_0000115 xml:lang="en">A cell found predominately in the blood.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>FMA:62844</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D001773</oboInOwl:hasDbXref>
+        <oboInOwl:id>CL:0000081</oboInOwl:id>
+        <rdfs:label xml:lang="en">blood cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000255"/>
+        <obo:IAO_0000115 xml:lang="en">An endothelial cell comprises the outermost layer or lining of anatomical structures and can be squamous or cuboidal. In mammals, endothelial cell has vimentin filaments and is derived from the mesoderm.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>BTO:0001176</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0278</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:66772</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">endotheliocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>CL:0000115</oboInOwl:id>
+        <rdfs:label xml:lang="en">endothelial cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000225">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <obo:IAO_0000115 xml:lang="en">A cell that lacks a nucleus.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>FMA:68647</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">non-nucleated cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>CL:0000225</oboInOwl:id>
+        <rdfs:label xml:lang="en">anucleate cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000232">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000081"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000329"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000764"/>
+        <obo:IAO_0000115 xml:lang="en">A red blood cell. In mammals, mature erythrocytes are biconcave disks containing hemoglobin whose function is to transport oxygen.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>BTO:0000424</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0290</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:81100</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">RBC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">red blood cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>CL:0000232</oboInOwl:id>
+        <rdfs:label xml:lang="en">erythrocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000233">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000081"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000225"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000458"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000763"/>
+        <obo:IAO_0000115 xml:lang="en">A non-nucleated disk-shaped cell formed by extrusion from megakaryocytes, found in the blood of all mammals, and mainly involved in blood coagulation.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>BTO:0000132</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0803</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:62851</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">anucleate thrombocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">blood platelet</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">enucleate thrombocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>CL:0000233</oboInOwl:id>
+        <rdfs:label xml:lang="en">platelet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <obo:IAO_0000115 xml:lang="en">Any cell that is in taxon Eukaryota.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D005057</oboInOwl:hasDbXref>
+        <oboInOwl:id>CL:0000255</oboInOwl:id>
+        <rdfs:label xml:lang="en">eukaryotic cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000329">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <obo:IAO_0000115 xml:lang="en">Any cell that is capable of some oxygen transport.</obo:IAO_0000115>
+        <oboInOwl:id>CL:0000329</oboInOwl:id>
+        <rdfs:label xml:lang="en">oxygen accumulating cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000393 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000393">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000211"/>
+        <obo:IAO_0000115 xml:lang="en">A cell whose function is determined by its response to an electric signal.</obo:IAO_0000115>
+        <oboInOwl:id>CL:0000393</oboInOwl:id>
+        <rdfs:label xml:lang="en">electrically responsive cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000404 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000404">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000211"/>
+        <obo:IAO_0000115 xml:lang="en">A cell that initiates an electrical signal and passes that signal to another cell.</obo:IAO_0000115>
+        <oboInOwl:id>CL:0000404</oboInOwl:id>
+        <rdfs:label xml:lang="en">electrically signaling cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000458">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000457"/>
+        <obo:IAO_0000115 xml:lang="en">A cell type that secretes 5-Hydroxytryptamine (serotonin).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">5-HT secreting cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">5-Hydroxytryptamine secreting cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>CL:0000458</oboInOwl:id>
+        <rdfs:label xml:lang="en">serotonin secreting cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000540">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000393"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000404"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002319"/>
+        <obo:IAO_0000115 xml:lang="en">The basic cellular unit of nervous tissue. Each neuron consists of a body, an axon, and dendrites. Their purpose is to receive, conduct, and transmit impulses in the nervous system.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>BTO:0000938</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:54527</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">nerve cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>CL:0000540</oboInOwl:id>
+        <rdfs:label xml:lang="en">neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000666 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000666">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000115"/>
+        <obo:IAO_0000115 xml:lang="en">An endothelial cell that has small pores, or fenestrations, which allow for the efficient exchange of substances between the blood and surrounding tissues.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">window cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>CL:0000666</oboInOwl:id>
+        <rdfs:label xml:lang="en">fenestrated endothelial cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000763 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000763">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000255"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000988"/>
+        <obo:IAO_0000115 xml:lang="en">A cell of the monocyte, granulocyte, mast cell, megakaryocyte, or erythroid lineage.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>BTO:0001441</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D022423</oboInOwl:hasDbXref>
+        <oboInOwl:id>CL:0000763</oboInOwl:id>
+        <rdfs:label xml:lang="en">myeloid cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000764 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000764">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000763"/>
+        <obo:IAO_0000115 xml:lang="en">A immature or mature cell in the lineage leading to and including erythrocytes.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>FMA:62845</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">erythropoietic cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>CL:0000764</oboInOwl:id>
+        <rdfs:label xml:lang="en">erythroid lineage cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002188">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000666"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002681"/>
+        <obo:IAO_0000115 xml:lang="en">An endothelial cell that is part of the glomerulus of the kidney. This cell is flattened, highly fenestrated, and plays a vital role in the formation of glomerular ultrafiltrate.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>BTO:0004632</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:70970</oboInOwl:hasDbXref>
+        <oboInOwl:id>CL:0002188</oboInOwl:id>
+        <rdfs:label xml:lang="en">glomerular endothelial cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002319 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002319">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000255"/>
+        <obo:IAO_0000115 xml:lang="en">A cell that is part of the nervous system.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>FMA:70333</oboInOwl:hasDbXref>
+        <oboInOwl:id>CL:0002319</oboInOwl:id>
+        <rdfs:label xml:lang="en">neural cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002681 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002681">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000497"/>
+        <obo:IAO_0000115 xml:lang="en">A cell that is part of a cortex of kidney.</obo:IAO_0000115>
+        <oboInOwl:id>CL:0002681</oboInOwl:id>
+        <rdfs:label xml:lang="en">kidney cortical cell</rdfs:label>
+    </owl:Class>
+    
+
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150">
+        <oboInOwl:id>GO:0008150</oboInOwl:id>
+        <rdfs:label xml:lang="en">biological_process</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002376">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115 xml:lang="en">Any process involved in the development or functioning of the immune system, an organismal system for calibrated responses to potential internal or invasive threats.</obo:IAO_0000115>
+        <oboInOwl:id>GO:0002376</oboInOwl:id>
+        <rdfs:label xml:lang="en">immune system process</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006955 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006955">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002376"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050896"/>
+        <obo:IAO_0000115 xml:lang="en">Any immune system process that functions in the calibrated response of an organism to a potential internal or invasive threat.</obo:IAO_0000115>
+        <oboInOwl:id>GO:0006955</oboInOwl:id>
+        <rdfs:label xml:lang="en">immune response</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0007155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007155">
+        <oboInOwl:id>GO:0007155</oboInOwl:id>
+        <rdfs:label xml:lang="en">cell adhesion</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008219">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009987"/>
+        <obo:IAO_0000115 xml:lang="en">Any biological process that results in permanent cessation of all vital functions of a cell.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">necrosis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0008219</oboInOwl:id>
+        <rdfs:label xml:lang="en">cell death</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0009987 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009987">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115 xml:lang="en">Any process that is carried out at the cellular level, but not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">cell physiology</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">cellular physiological process</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>GO:0009987</oboInOwl:id>
+        <rdfs:label xml:lang="en">cellular process</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019538 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019538">
+        <oboInOwl:id>GO:0019538</oboInOwl:id>
+        <rdfs:label xml:lang="en">protein metabolic process</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0032501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032501">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115 xml:lang="en">Any biological process, occurring at the level of a multicellular organism, pertinent to its function.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">organismal physiological process</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>GO:0032501</oboInOwl:id>
+        <rdfs:label xml:lang="en">multicellular organismal process</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0048871 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0048871">
+        <oboInOwl:id>GO:0048871</oboInOwl:id>
+        <rdfs:label xml:lang="en">multicellular organismal-level homeostasis</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0048872 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0048872">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048871"/>
+        <obo:IAO_0000115 xml:lang="en">Any biological process involved in the maintenance of the steady-state number of cells within a population of cells.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">cell population homeostasis</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>GO:0048872</oboInOwl:id>
+        <rdfs:label xml:lang="en">homeostasis of number of cells</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0050878 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050878">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0065008"/>
+        <obo:IAO_0000115 xml:lang="en">Any process that modulates the levels of body fluids.</obo:IAO_0000115>
+        <oboInOwl:id>GO:0050878</oboInOwl:id>
+        <rdfs:label xml:lang="en">regulation of body fluid levels</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0050896 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050896">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115 xml:lang="en">Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">physiological response to stimulus</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>GO:0050896</oboInOwl:id>
+        <rdfs:label xml:lang="en">response to stimulus</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0051604 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051604">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019538"/>
+        <obo:IAO_0000115 xml:lang="en">Any process leading to the attainment of the full functional capacity of a protein.</obo:IAO_0000115>
+        <oboInOwl:id>GO:0051604</oboInOwl:id>
+        <rdfs:label xml:lang="en">protein maturation</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0065008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0065008">
+        <oboInOwl:id>GO:0065008</oboInOwl:id>
+        <rdfs:label xml:lang="en">regulation of biological quality</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0098609 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0098609">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007155"/>
+        <obo:IAO_0000115 xml:lang="en">The attachment of one cell to another cell via adhesion molecules.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">single organismal cell-cell adhesion</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0098609</oboInOwl:id>
+        <rdfs:label xml:lang="en">cell-cell adhesion</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/GO_0001775 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0001775">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009987"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032501"/>
+        <obo:IAO_0000115 xml:lang="en">A multicellular organismal process by which exposure to an activating factor such as a cellular or soluble ligand results in a change in the morphology or behavior of a cell.</obo:IAO_0000115>
+        <oboInOwl:id>GO:0001775</oboInOwl:id>
+        <rdfs:label xml:lang="en">cell activation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002252">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002376"/>
+        <obo:IAO_0000115 xml:lang="en">Any process of the immune system that executes a component of an immune response. An effector immune process takes place after its activation.</obo:IAO_0000115>
+        <oboInOwl:id>GO:0002252</oboInOwl:id>
+        <rdfs:label xml:lang="en">immune effector process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002253">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002376"/>
+        <obo:IAO_0000115 xml:lang="en">Any process that initiates an immune response.</obo:IAO_0000115>
+        <oboInOwl:id>GO:0002253</oboInOwl:id>
+        <rdfs:label xml:lang="en">activation of immune response</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002262">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002376"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048872"/>
+        <obo:IAO_0000115 xml:lang="en">The process of regulating the proliferation and elimination of myeloid cells such that the total number of myeloid cells within a whole or part of an organism is stable over time in the absence of an outside stimulus.</obo:IAO_0000115>
+        <oboInOwl:id>GO:0002262</oboInOwl:id>
+        <rdfs:label xml:lang="en">myeloid cell homeostasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002931 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002931">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006950"/>
+        <obo:IAO_0000115 xml:lang="en">Any process that results in a change in state or activity of an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a inadequate blood supply.</obo:IAO_0000115>
+        <oboInOwl:id>GO:0002931</oboInOwl:id>
+        <rdfs:label xml:lang="en">response to ischemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006915 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006915">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0012501"/>
+        <obo:IAO_0000115 xml:lang="en">A programmed cell death process which begins when a cell receives an internal (e.g. DNA damage) or external signal (e.g. an extracellular death ligand), and proceeds through a series of biochemical events (signaling pathway phase) which trigger an execution phase. The execution phase is the last step of an apoptotic process, and is typically characterized by rounding-up of the cell, retraction of pseudopodes, reduction of cellular volume (pyknosis), chromatin condensation, nuclear fragmentation (karyorrhexis), plasma membrane blebbing and fragmentation of the cell into apoptotic bodies. When the execution phase is completed, the cell has died.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym xml:lang="en">cell suicide</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-109581</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">apoptotic cell death</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">apoptotic programmed cell death</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">apoptosis</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:id>GO:0006915</oboInOwl:id>
+        <rdfs:label xml:lang="en">apoptotic process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006950 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006950">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050896"/>
+        <obo:IAO_0000115 xml:lang="en">Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a disturbance in organismal or cellular homeostasis, usually, but not necessarily, exogenous (e.g. temperature, humidity, ionizing radiation).</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">response to abiotic stress</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">response to biotic stress</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0006950</oboInOwl:id>
+        <rdfs:label xml:lang="en">response to stress</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006952 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006952">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006950"/>
+        <obo:IAO_0000115 xml:lang="en">Reactions, triggered in response to the presence of a foreign body or the occurrence of an injury, which result in restriction of damage to the organism attacked or prevention/recovery from the infection caused by the attack.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">defence response</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">physiological defense response</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>GO:0006952</oboInOwl:id>
+        <rdfs:label xml:lang="en">defense response</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006954 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006954">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006952"/>
+        <obo:IAO_0000115 xml:lang="en">The immediate defensive reaction (by vertebrate tissue) to infection or injury caused by chemical or physical agents. The process is characterized by local vasodilation, extravasation of plasma into intercellular spaces and accumulation of white blood cells and macrophages.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym xml:lang="en">inflammation</oboInOwl:hasBroadSynonym>
+        <oboInOwl:id>GO:0006954</oboInOwl:id>
+        <rdfs:label xml:lang="en">inflammatory response</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006956 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006956">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002252"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002253"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006959"/>
+        <obo:IAO_0000115 xml:lang="en">Any process involved in the activation of any of the steps of the complement cascade, which allows for the direct killing of microbes, the disposal of immune complexes, and the regulation of other immune processes; the initial steps of complement activation involve one of three pathways, the classical pathway, the alternative pathway, and the lectin pathway, all of which lead to the terminal complement pathway.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-166658</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">complement cascade</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">complement response</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">complement activity</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0006956</oboInOwl:id>
+        <rdfs:label xml:lang="en">complement activation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006957 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006957">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006956"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0045087"/>
+        <obo:IAO_0000115 xml:lang="en">Any process involved in the activation of any of the steps of the alternative pathway of the complement cascade which allows for the direct killing of microbes and the regulation of other immune processes.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-173736</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">complement cascade, alternative pathway</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>GO:0006957</oboInOwl:id>
+        <rdfs:label xml:lang="en">complement activation, alternative pathway</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006959 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006959">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006955"/>
+        <obo:IAO_0000115 xml:lang="en">An immune response mediated through a body fluid.</obo:IAO_0000115>
+        <oboInOwl:id>GO:0006959</oboInOwl:id>
+        <rdfs:label xml:lang="en">humoral immune response</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0007596 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007596">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007599"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050817"/>
+        <obo:IAO_0000115 xml:lang="en">The sequential process in which the multiple coagulation factors of the blood interact, ultimately resulting in the formation of an insoluble fibrin clot; it may be divided into three stages: stage 1, the formation of intrinsic and extrinsic prothrombin converting principle; stage 2, the formation of thrombin; stage 3, the formation of stable fibrin polymers.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-109582</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">blood clotting</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>GO:0007596</oboInOwl:id>
+        <rdfs:label xml:lang="en">blood coagulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0007599 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007599">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050878"/>
+        <obo:IAO_0000115 xml:lang="en">The stopping of bleeding (loss of body fluid) or the arrest of the circulation to an organ or part.</obo:IAO_0000115>
+        <oboInOwl:id>GO:0007599</oboInOwl:id>
+        <rdfs:label xml:lang="en">hemostasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0012501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0012501">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008219"/>
+        <obo:IAO_0000115 xml:lang="en">A process which begins when a cell receives an internal or external signal and activates a series of biochemical events (signaling pathway). The process ends with the death of the cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">regulated cell death</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">PCD</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0012501</oboInOwl:id>
+        <rdfs:label xml:lang="en">programmed cell death</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0030168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030168">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0001775"/>
+        <obo:IAO_0000115 xml:lang="en">A series of progressive, overlapping events triggered by exposure of the platelets to subendothelial tissue. These events include shape change, adhesiveness, aggregation, and release reactions. When carried through to completion, these events lead to the formation of a stable hemostatic plug.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-392023</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">blood coagulation, platelet activation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>GO:0030168</oboInOwl:id>
+        <rdfs:label xml:lang="en">platelet activation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0034101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0034101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002262"/>
+        <obo:IAO_0000115 xml:lang="en">Any process of regulating the production and elimination of erythrocytes within an organism.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">RBC homeostasis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">red blood cell homeostasis</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>GO:0034101</oboInOwl:id>
+        <rdfs:label xml:lang="en">erythrocyte homeostasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0034102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0034102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048771"/>
+        <obo:IAO_0000115 xml:lang="en">The selective elimination of erythrocytes from the body by autoregulatory mechanisms.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">RBC clearance</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">red blood cell clearance</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">neocytolysis</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:id>GO:0034102</oboInOwl:id>
+        <rdfs:label xml:lang="en">erythrocyte clearance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0034109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0034109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098609"/>
+        <obo:IAO_0000115 xml:lang="en">The attachment of a cell to a second cell of the identical type via adhesion molecules.</obo:IAO_0000115>
+        <oboInOwl:id>GO:0034109</oboInOwl:id>
+        <rdfs:label xml:lang="en">homotypic cell-cell adhesion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0042118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0001775"/>
+        <obo:IAO_0000115 xml:lang="en">The change in morphology and behavior of an endothelial cell resulting from exposure to a cytokine, chemokine, cellular ligand, or soluble factor.</obo:IAO_0000115>
+        <oboInOwl:id>GO:0042118</oboInOwl:id>
+        <rdfs:label xml:lang="en">endothelial cell activation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0045087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006955"/>
+        <obo:IAO_0000115 xml:lang="en">Innate immune responses are defense responses mediated by germline encoded components that directly recognize components of potential pathogens.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">innate immunity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">nonspecific immune response</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>GO:0045087</oboInOwl:id>
+        <rdfs:label xml:lang="en">innate immune response</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0048771 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0048771">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032501"/>
+        <obo:IAO_0000115 xml:lang="en">The reorganization or renovation of existing tissues. This process can either change the characteristics of a tissue such as in blood vessel remodeling, or result in the dynamic equilibrium of a tissue such as in bone remodeling.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">tissue remodelling</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>GO:0048771</oboInOwl:id>
+        <rdfs:label xml:lang="en">tissue remodeling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0050817 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050817">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032501"/>
+        <obo:IAO_0000115 xml:lang="en">The process in which a fluid solution, or part of it, changes into a solid or semisolid mass.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">clotting</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>GO:0050817</oboInOwl:id>
+        <rdfs:label xml:lang="en">coagulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0070527 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0070527">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0034109"/>
+        <obo:IAO_0000115 xml:lang="en">The adhesion of one platelet to one or more other platelets via adhesion molecules.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">blood platelet aggregation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>GO:0070527</oboInOwl:id>
+        <rdfs:label xml:lang="en">platelet aggregation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0072376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0072376">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051604"/>
+        <obo:IAO_0000115 xml:lang="en">A sequential series of modifications to a set of proteins where the product of one reaction catalyzes the following reaction, ultimately leading to the generation of a mature protein. Modifications typically include proteolysis or covalent modification, and may also include binding events.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">protein activation pathway</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>GO:0072376</oboInOwl:id>
+        <rdfs:label xml:lang="en">protein activation cascade</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0072378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0072378">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0072376"/>
+        <obo:IAO_0000115 xml:lang="en">A protein activation cascade that contributes to blood coagulation and consists of the cascade of enzymatic reactions initiated by physical damage to the wall of a blood vessel, leading to the formation of a fibrin clot at the site of the injury. The process also includes numerous positive and negative regulatory events.</obo:IAO_0000115>
+        <oboInOwl:id>GO:0072378</oboInOwl:id>
+        <rdfs:label xml:lang="en">blood coagulation, fibrin clot formation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000118 — Phenotypic abnormality (ancestor boundary) -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000118">
+        <obo:IAO_0000115 xml:lang="en">A phenotypic abnormality.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>UMLS:C4021819</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Organ abnormality</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0000118</oboInOwl:id>
+        <rdfs:label xml:lang="en">Phenotypic abnormality</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000119 — Abnormality of the genitourinary system -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 xml:lang="en">The presence of any abnormality of the genitourinary system.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:42030000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0042063</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Abnormality of the GU system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Genitourinary abnormality</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Genitourinary tract anomalies</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Urogenital abnormalities</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0000119</oboInOwl:id>
+        <rdfs:label xml:lang="en">Abnormality of the genitourinary system</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000079 — Abnormality of the urinary system -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000119"/>
+        <obo:IAO_0000115 xml:lang="en">An abnormality of the urinary system.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>UMLS:C4021821</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Urinary tract abnormality</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Urinary tract anomalies</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0000079</oboInOwl:id>
+        <rdfs:label xml:lang="en">Abnormality of the urinary system</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010935 — Abnormality of the upper urinary tract -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010935">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000079"/>
+        <obo:IAO_0000115 xml:lang="en">An abnormality of the upper urinary tract.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>UMLS:C4023641</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Abnormality of the upper urinary tract</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0010935</oboInOwl:id>
+        <rdfs:label xml:lang="en">Abnormality of the upper urinary tract</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011277 — Abnormality of the urinary system physiology -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011277">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000079"/>
+        <oboInOwl:hasDbXref>UMLS:C4023437</oboInOwl:hasDbXref>
+        <oboInOwl:id>HP:0011277</oboInOwl:id>
+        <rdfs:label xml:lang="en">Abnormality of the urinary system physiology</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000077 — Abnormality of the kidney -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010935"/>
+        <obo:IAO_0000115 xml:lang="en">An abnormality of the kidney.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:90708001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0022658</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Abnormal kidney</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Renal anomaly</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0000077</oboInOwl:id>
+        <rdfs:label xml:lang="en">Abnormality of the kidney</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012211 — Abnormal renal physiology -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012211">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000077"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011277"/>
+        <obo:IAO_0000115 xml:lang="en">An abnormal functionality of the kidney.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:39539005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0151746</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Abnormal kidney function</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Abnormal renal function</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Abnormality of renal physiology</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Renal functional abnormality</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0012211</oboInOwl:id>
+        <rdfs:label xml:lang="en">Abnormal renal physiology</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000707 — Abnormality of the nervous system -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000707">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 xml:lang="en">An abnormality of the nervous system.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:88425004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0497552</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Neurological abnormality</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Neurologic abnormalities</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0000707</oboInOwl:id>
+        <rdfs:label xml:lang="en">Abnormality of the nervous system</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001871 — Abnormality of blood and blood-forming tissues -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001871">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 xml:lang="en">An abnormality of the hematopoietic system.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:34093004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0018939</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Abnormality of blood and blood-forming tissues</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Abnormality of the hematopoietic system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Hematological abnormality</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0001871</oboInOwl:id>
+        <rdfs:label xml:lang="en">Abnormality of blood and blood-forming tissues</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001872 — Abnormality of thrombocytes -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001872">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001871"/>
+        <obo:IAO_0000115 xml:lang="en">An abnormality of platelets.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:127566005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0040015</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Platelet abnormalities</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0001872</oboInOwl:id>
+        <rdfs:label xml:lang="en">Abnormality of thrombocytes</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011875 — Abnormal platelet morphology -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011875">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001872"/>
+        <obo:IAO_0000115 xml:lang="en">An anomaly in platelet form, ultrastructure, or intracellular organelles.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>UMLS:C0855742</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Abnormal shape of platelets</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0011875</oboInOwl:id>
+        <rdfs:label xml:lang="en">Abnormal platelet morphology</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001877 — Abnormal erythrocyte morphology -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001877">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001871"/>
+        <obo:IAO_0000115 xml:lang="en">Any structural abnormality of erythrocytes (red-blood cells).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:12222001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0391870</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Abnormality of erythrocytes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Abnormality of red blood cells</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0001877</oboInOwl:id>
+        <rdfs:label xml:lang="en">Abnormal erythrocyte morphology</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001903 — Anemia -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001903">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001877"/>
+        <obo:IAO_0000115 xml:lang="en">A reduction in erythrocytes volume or hemoglobin concentration.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:271737000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0002871</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Anaemia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Low number of red blood cells or hemoglobin</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0001903</oboInOwl:id>
+        <rdfs:label xml:lang="en">Anemia</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011895 — Anemia due to reduced life span of red cells -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011895">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001903"/>
+        <obo:IAO_0000115 xml:lang="en">A type of anemia related to a reduction in the average life span of red blood cells in the peripheral circulation, which is normally around 120 days.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>UMLS:C4021112</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Anaemia due to reduced life span of red cells</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0011895</oboInOwl:id>
+        <rdfs:label xml:lang="en">Anemia due to reduced life span of red cells</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001939 — Abnormality of metabolism/homeostasis -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001939">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <oboInOwl:hasDbXref>UMLS:C4021768</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Laboratory abnormality</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Metabolism abnormality</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0001939</oboInOwl:id>
+        <rdfs:label xml:lang="en">Abnormality of metabolism/homeostasis</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0034684 — Abnormal enzyme concentration or activity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0034684">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001939"/>
+        <obo:IAO_0000115 xml:lang="en">Concentration or activity of an enzyme is above or below the limits of normal.</obo:IAO_0000115>
+        <oboInOwl:id>HP:0034684</oboInOwl:id>
+        <rdfs:label xml:lang="en">Abnormal enzyme concentration or activity</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012379 — Abnormal circulating enzyme concentration or activity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012379">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0034684"/>
+        <obo:IAO_0000115 xml:lang="en">Concentration or activity of an enzyme is above or below the limits of normal in the blood circulation.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>UMLS:C4022922</oboInOwl:hasDbXref>
+        <oboInOwl:id>HP:0012379</oboInOwl:id>
+        <rdfs:label xml:lang="en">Abnormal circulating enzyme concentration or activity</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000083 — Renal insufficiency -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012211"/>
+        <obo:IAO_0000115 xml:lang="en">A reduction in the level of performance of the kidneys in areas of function comprising the concentration of urine, removal of wastes, the maintenance of electrolyte balance, homeostasis of blood pressure, and calcium metabolism.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:42399005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0035078</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Renal failure</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0000083</oboInOwl:id>
+        <rdfs:label xml:lang="en">Renal insufficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001250">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012638"/>
+        <obo:IAO_0000115 xml:lang="en">A seizure is an intermittent abnormality of nervous system physiology characterized by a transient occurrence of signs and/or symptoms due to abnormal excessive or synchronous neuronal activity in the brain.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:128613002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:84757009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0014544</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0036572</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Epileptic seizure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Seizures</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Epilepsy</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>HP:0001250</oboInOwl:id>
+        <rdfs:label xml:lang="en">Seizure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001873 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001873">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011873"/>
+        <obo:IAO_0000115 xml:lang="en">A reduction in the number of circulating thrombocytes.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:302215000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:415116008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0040034</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0392386</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Low platelet count</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0001873</oboInOwl:id>
+        <rdfs:label xml:lang="en">Thrombocytopenia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001878 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001878">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011895"/>
+        <obo:IAO_0000115 xml:lang="en">A type of anemia caused by premature destruction of red blood cells (hemolysis).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:61261009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0002878</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Haemolytic anaemia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Haemolytic anemia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Increased hemolysis</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0001878</oboInOwl:id>
+        <rdfs:label xml:lang="en">Hemolytic anemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001919 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001919">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000083"/>
+        <obo:IAO_0000115 xml:lang="en">Sudden loss of renal function, as manifested by decreased urine production, and a rise in serum creatinine or blood urea nitrogen concentration (azotemia).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:14350001000004108</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:14669001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0022660</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C2609414</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">AKI</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Acute kidney failure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Acute renal failure</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0001919</oboInOwl:id>
+        <rdfs:label xml:lang="en">Acute kidney injury</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001937 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001937">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001878"/>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:51071000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0221021</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Microangiopathic hemolytic anaemia</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0001937</oboInOwl:id>
+        <rdfs:label xml:lang="en">Microangiopathic hemolytic anemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001981 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001981">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004447"/>
+        <obo:IAO_0000115 xml:lang="en">The presence of an abnormal number of fragmented red blood cells (schistocytes) in the blood.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:385472000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0344386</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Schistocytes</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0001981</oboInOwl:id>
+        <rdfs:label xml:lang="en">Schistocytosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004447 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004447">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001877"/>
+        <obo:IAO_0000115 xml:lang="en">The presence of abnormally shaped erythrocytes.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:165479004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0221281</oboInOwl:hasDbXref>
+        <oboInOwl:id>HP:0004447</oboInOwl:id>
+        <rdfs:label xml:lang="en">Poikilocytosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011873 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011873">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011875"/>
+        <obo:IAO_0000115 xml:lang="en">Abnormal number of platelets per volume of blood. In a healthy adult, a normal platelet count is between 150,000 and 450,000 per microliter of blood.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:165558001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0580317</oboInOwl:hasDbXref>
+        <oboInOwl:id>HP:0011873</oboInOwl:id>
+        <rdfs:label xml:lang="en">Abnormal platelet count</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012638 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012638">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000707"/>
+        <obo:IAO_0000115 xml:lang="en">A functional anomaly of the nervous system.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>UMLS:C4022811</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Abnormality of nervous system physiology</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0012638</oboInOwl:id>
+        <rdfs:label xml:lang="en">Abnormal nervous system physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025435 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0025435">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0045040"/>
+        <obo:IAO_0000115 xml:lang="en">An elevated level of the enzyme lactate dehydrogenase in the blood circulation.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">Increased circulating LDH concentration</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Increased lactate dehydrogenase level</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0025435</oboInOwl:id>
+        <rdfs:label xml:lang="en">Increased circulating lactate dehydrogenase concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0045040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0045040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012379"/>
+        <obo:IAO_0000115 xml:lang="en">A deviation from the normal serum concentration/activity of lactate dehydrogenase (LDH), which catalyzes the reduction of pyruvate to form lactate.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>UMLS:C4073168</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Abnormal LDH level</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Abnormal circulating LDH concentration</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Abnormal lactate dehydrogenase level</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0045040</oboInOwl:id>
+        <rdfs:label xml:lang="en">Abnormal circulating lactate dehydrogenase concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0002118 — urinary system disorder -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+        <obo:IAO_0000115 xml:lang="en">A disease involving the renal system.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>DOID:18</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D014570</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C3430</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:128606002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0042075</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">disease of renal system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">renal system disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">urinary system disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">urinary tract disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">urologic disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0002118</oboInOwl:id>
+        <rdfs:label xml:lang="en">urinary system disorder</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005240 — kidney disorder -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005240">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002118"/>
+        <obo:IAO_0000115 xml:lang="en">A disease involving the kidney.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>DOID:557</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D007674</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C3149</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:90708001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0022658</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">kidney disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">renal disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">renal disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">nephropathy</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MONDO:0005240</oboInOwl:id>
+        <rdfs:label xml:lang="en">kidney disorder</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0001106 — kidney failure -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0001106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005240"/>
+        <obo:IAO_0000115 xml:lang="en">An acute or chronic condition that is characterized by the inability of the kidneys to adequately filter the blood.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>DOID:1074</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D051437</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C4376</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:42399005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0035078</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">renal failure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">renal failure syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">renal insufficiency</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0001106</oboInOwl:id>
+        <rdfs:label xml:lang="en">kidney failure</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0002492 — acute kidney injury -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002492">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001106"/>
+        <obo:IAO_0000115 xml:lang="en">Sudden and sustained deterioration of the kidney function characterized by decreased glomerular filtration rate, increased serum creatinine or oliguria.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>DOID:3021</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:N17</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D058186</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C26808</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C2609414</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">AKI</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">acute kidney failure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">acute renal failure</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0002492</oboInOwl:id>
+        <rdfs:label xml:lang="en">acute kidney injury</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0019722 — glomerular disorder -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0019722">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005240"/>
+        <obo:IAO_0000115 xml:lang="en">A disease involving the renal glomerulus.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C120887</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Orphanet:93548</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:197679002</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">disease of renal glomerulus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">glomerulopathy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">renal glomerulus disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0019722</oboInOwl:id>
+        <rdfs:label xml:lang="en">glomerular disorder</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0000001 — disease -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001">
+        <obo:IAO_0000115 xml:lang="en">A disease is a disposition to undergo pathological processes that exists in an organism because of one or more disorders in that organism.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>DOID:4</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MEDGEN:4347</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D004194</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C2991</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OGMS:0000031</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Orphanet:377788</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:64572001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0012634</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">condition</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">medical condition</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0000001</oboInOwl:id>
+        <rdfs:label xml:lang="en">disease</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0700096 — human disease -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0700096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">human disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0700096</oboInOwl:id>
+        <rdfs:label xml:lang="en">human disease</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005570 — hematologic disorder -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005570">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+        <obo:IAO_0000115 xml:lang="en">A disease involving the hematopoietic system.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>DOID:74</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:D50-D89</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D006402</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C26323</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Orphanet:97992</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:414022008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0018939</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">blood disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">blood disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">disease of hematopoietic system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">hematologic disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">hematological disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">hematological disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">hematopoietic system disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0005570</oboInOwl:id>
+        <rdfs:label xml:lang="en">hematologic disorder</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0001531 — blood coagulation disease -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0001531">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005570"/>
+        <obo:IAO_0000115 xml:lang="en">A condition in which there is a deviation from or interruption of the normal coagulation properties of the blood.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>DOID:1247</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:286</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D001778</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C2902</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:64779008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0005779</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">blood coagulation disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">coagulation defect</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">coagulation disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">coagulopathy</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0001531</oboInOwl:id>
+        <rdfs:label xml:lang="en">blood coagulation disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0001549 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0001549">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001531"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0019737"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004003"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000000629"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004003"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000000718"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004003"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000003075"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004003"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000003426"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004003"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000004179"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004003"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000007056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004003"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000008526"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004020"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/tma#ComplementAlternativePathwayDysregulation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0002243 — hemorrhagic disease -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002243">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005570"/>
+        <obo:IAO_0000115 xml:lang="en">Spontaneous or near spontaneous bleeding caused by a defect in clotting mechanisms (blood coagulation disorders) or another abnormality causing a structural flaw in the blood vessels (hemostatic disorders).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>DOID:2213</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D006474</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C115221</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0019087</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">bleeding diathesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">bleeding disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">bleeding tendency</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">hemorrhagic disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0002243</oboInOwl:id>
+        <rdfs:label xml:lang="en">hemorrhagic disease</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0002610 — purpura -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002610">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002243"/>
+        <obo:IAO_0000115 xml:lang="en">A small blood vessel hemorrhage into the skin and/or mucous membranes. Newer lesions appear reddish in color. Older lesions are usually a darker purple color and eventually become a brownish-yellow color.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>DOID:3326</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D011693</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0034150</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">purpura (disease)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">purpuric disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0002610</oboInOwl:id>
+        <rdfs:label xml:lang="en">purpura</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0002245 — blood platelet disease -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005570"/>
+        <obo:IAO_0000115 xml:lang="en">Disorders caused by abnormalities in platelet count or function.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D001791</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C131634</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:22716005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0151854</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">platelet abnormality</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">platelet disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0002245</oboInOwl:id>
+        <rdfs:label xml:lang="en">blood platelet disease</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0002049 — thrombocytopenia -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002245"/>
+        <obo:IAO_0000115 xml:lang="en">A laboratory test result indicating that there is an abnormally small number of platelets in the circulating blood.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>DOID:1588</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D013921</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C3408</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:302215000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0040034</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">platelet count decreased</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">thrombocytopenic disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0002049</oboInOwl:id>
+        <rdfs:label xml:lang="en">thrombocytopenia</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005046 — immune system disorder -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+        <obo:IAO_0000115 xml:lang="en">A disorder resulting from an abnormality in the immune system.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>DOID:2914</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D007154</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C3507</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:414029004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0021053</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">disease of immune system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">immune disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">immune dysfunction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">immune system disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0005046</oboInOwl:id>
+        <rdfs:label xml:lang="en">immune system disorder</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0002305 — thrombophilia -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002305">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001531"/>
+        <obo:IAO_0000115 xml:lang="en">A condition characterized by an abnormally high level of thrombi. Causes include thrombotic thrombocytopenic purpura, disseminated intravascular coagulation, bone marrow disorders, and antiphospholipid antibody syndrome.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>DOID:2452</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D019851</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C84479</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Orphanet:64738</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:234467004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0398623</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">excessive blood clotting</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">hypercoagulability</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">hypercoagulability state</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">hypercoagulable</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0002305</oboInOwl:id>
+        <rdfs:label xml:lang="en">thrombophilia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0018896 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0018896">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002305"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0019737"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0043768"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004003"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000011093"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004006"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000011093"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004020"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/tma#ADAMTS13DeficiencyAndUltraLargeVWFMultimers"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004021"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/tma#ADAMTS13DeficiencyAndUltraLargeVWFMultimers"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004023"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000007450"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0019737 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0019737">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001531"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002200"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001250"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002200"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001873"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002200"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001919"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002200"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001937"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002200"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001981"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002200"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0025435"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004020"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0042118"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004024"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/tma#OrganIschemiaAndEndOrganDamage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0070527"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004029"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/tma#EndothelialCellInjuryAndActivation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004029"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/tma#MicroangiopathicHemolyticAnemiaProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004029"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/tma#PlateletAggregationAndMicrovascularThrombosis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0043768 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0043768">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002049"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002610"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005046"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0019737"/>
+        <obo:IAO_0000115 xml:lang="en">Purpura associated with a reduction in circulating blood platelets which can result from a variety of factors.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D011696</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C26870</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0857305</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">thrombocytopenic purpura</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">purpura, thrombopenic</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">thrombopenic purpura</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MONDO:0043768</oboInOwl:id>
+        <rdfs:label xml:lang="en">thrombocytopenic purpura</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C124657 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C124657">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C199456"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C201818"/>
+        <obo:IAO_0000115 xml:lang="en">A longer-acting antibody directed against terminal complement protein C5, with potential anti-inflammatory activity. Upon administration, ravulizumab binds to terminal complement protein C5, thereby blocking C5 cleavage into pro-inflammatory components and preventing the complement-mediated destruction of red blood cells.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">ALXN1210</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Ravulizumab-cwvz</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Ultomiris</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C124657</oboInOwl:id>
+        <rdfs:label xml:lang="en">Ravulizumab</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C128625 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C128625">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C1327"/>
+        <obo:IAO_0000115 xml:lang="en">A humanized, bivalent anti-von Willebrand factor (VWF) nanobody, with potential anti-platelet and anti-thrombotic activities. Upon administration, caplacizumab specifically binds, with its two identical monovalent moieties, to the A1 domain of the adhesive glycoprotein VWF, thereby inhibiting and neutralizing VWF activity. This prevents the interaction of ultra-large VWF (ULVWF) with the platelet glycoprotein (GP)Ib-IX-V receptor complex, and prevents ULVWF-mediated platelet adhesion, and aggregation, which reduces thrombus formation.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">ALX-0081</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">ALX-0681</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Cablivi</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Caplacizumab-yhdp</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C128625</oboInOwl:id>
+        <rdfs:label xml:lang="en">Caplacizumab</rdfs:label>
+    </owl:Class>
+    
+
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C274">
+        <oboInOwl:id>NCIT:C274</oboInOwl:id>
+        <rdfs:label xml:lang="en">Antineoplastic Agent</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C307">
+        <oboInOwl:id>NCIT:C307</oboInOwl:id>
+        <rdfs:label xml:lang="en">Biological Agent</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C308">
+        <oboInOwl:id>NCIT:C308</oboInOwl:id>
+        <rdfs:label xml:lang="en">Immunotherapeutic Agent</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C20401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20401">
+        <oboInOwl:id>NCIT:C20401</oboInOwl:id>
+        <rdfs:label xml:lang="en">Monoclonal Antibody</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C78275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C78275">
+        <oboInOwl:id>NCIT:C78275</oboInOwl:id>
+        <rdfs:label xml:lang="en">Agent Affecting Blood or Body Fluid</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C129821 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C129821">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C274"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C307"/>
+        <obo:IAO_0000115 xml:lang="en">Any agent that has a biological nature and exerts antineoplastic activity.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">Antineoplastic Biological</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Antineoplastic Biotherapeutic</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C129821</oboInOwl:id>
+        <rdfs:label xml:lang="en">Antineoplastic Biological Agent</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C129822 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C129822">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C129821"/>
+        <obo:IAO_0000115 xml:lang="en">Any type of antibody that exerts antineoplastic activity.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">Anti-cancer Antibody</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Anticancer Antibody</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C129822</oboInOwl:id>
+        <rdfs:label xml:lang="en">Antineoplastic Antibody</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C1327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C1327">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C78275"/>
+        <obo:IAO_0000115 xml:lang="en">An agent that inhibits platelet aggregation and reduces coagulation in the circulatory system.</obo:IAO_0000115>
+        <oboInOwl:id>NCIT:C1327</oboInOwl:id>
+        <rdfs:label xml:lang="en">Antiplatelet Agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C141215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C141215">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C20401"/>
+        <obo:IAO_0000115 xml:lang="en">Any monoclonal antibody that targets CD20.</obo:IAO_0000115>
+        <oboInOwl:id>NCIT:C141215</oboInOwl:id>
+        <rdfs:label xml:lang="en">Anti-CD20 Monoclonal Antibody</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C1702 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C1702">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C129822"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C141215"/>
+        <obo:IAO_0000115 xml:lang="en">A recombinant chimeric murine/human antibody directed against the CD20 antigen, a hydrophobic transmembrane protein located on normal pre-B and mature B lymphocytes. Following binding, rituximab triggers a host cytotoxic immune response against CD20-positive cells.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">MabThera</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Rituxan</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">rituximab</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C1702</oboInOwl:id>
+        <rdfs:label xml:lang="en">Rituximab</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C199456 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C199456">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C308"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C78275"/>
+        <obo:IAO_0000115 xml:lang="en">Any agent that inhibits the complement cascade.</obo:IAO_0000115>
+        <oboInOwl:id>NCIT:C199456</oboInOwl:id>
+        <rdfs:label xml:lang="en">Complement Inhibitor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C201818 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C201818">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C20401"/>
+        <obo:IAO_0000115 xml:lang="en">Any monoclonal antibody that is directed against complement C5.</obo:IAO_0000115>
+        <oboInOwl:id>NCIT:C201818</oboInOwl:id>
+        <rdfs:label xml:lang="en">Anti-C5 Monoclonal Antibody</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C48386 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C48386">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C199456"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C201818"/>
+        <obo:IAO_0000115 xml:lang="en">A humanized monoclonal antibody directed against terminal complement protein C5. Eculizumab binds to terminal complement protein C5, thereby blocking C5 cleavage into pro-inflammatory components and blocking the complement-mediated destruction of paroxysmal nocturnal hemoglobinuria (PNH) red blood cells.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">Soliris</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">eculizumab</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C48386</oboInOwl:id>
+        <rdfs:label xml:lang="en">Eculizumab</rdfs:label>
+    </owl:Class>
+    
+
+
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C29726 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C29726">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C307"/>
+        <obo:IAO_0000115 xml:lang="en">Synthetic enzyme or mixture of enzymes used to replace or supplement enzymes to treat enzyme deficiency or to promote healthy body functions.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">Enzyme Replacement Agent</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C29726</oboInOwl:id>
+        <rdfs:label xml:lang="en">Enzyme Replacement or Supplement Agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C574 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C574">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C308"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">Immunosuppressive Agents</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">immunosuppressant</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C574</oboInOwl:id>
+        <rdfs:label xml:lang="en">Immunosuppressant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C169784 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C169784">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C29726"/>
+        <obo:IAO_0000115 xml:lang="en">A recombinant human form of a disintegrin and metalloproteinase with thrombospondin motifs 13 (ADAMTS13) that may be used as a replacement therapy for ADAMTS13 with indirect anti-thrombotic and anti-thrombocytopenic activities. Upon administration, apadamtase alfa acts similarly as endogenous ADAMTS13 and mediates the cleavage of von Willebrand factor (VWF) at the Tyr1605-Met1606 bond in the A2 domain.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">Apadamtase Alfa</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Recombinant ADAMTS13</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">rADAMTS13</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">TAK-755</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Adzynma</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C169784</oboInOwl:id>
+        <rdfs:label xml:lang="en">Apadamtase Alfa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171817 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C171817">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C574"/>
+        <obo:IAO_0000115 xml:lang="en">A human immunoglobulin G1 (IgG1)-derived Fc fragment that targets the neonatal Fc receptor (FcRn), with potential FcRn blocking activity. Upon administration, efgartigimod alfa targets, binds to and blocks FcRn, thereby preventing FcRn from recycling IgG back into the systemic circulation, causing a reduction in IgG blood levels including pathogenic autoantibodies.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">Efgartigimod Alfa</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">ARGX-113</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Vyvgart</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C171817</oboInOwl:id>
+        <rdfs:label xml:lang="en">Efgartigimod Alfa</rdfs:label>
+    </owl:Class>
+    
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_0000000002">
+        <obo:IAO_0000115 xml:lang="en">A gene is a material entity that represents the entire DNA sequence required for synthesis of a functional protein or RNA molecule.</obo:IAO_0000115>
+        <oboInOwl:id>OGG:0000000002</oboInOwl:id>
+        <rdfs:label xml:lang="en">gene</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_2000002759 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_2000002759">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
+        <obo:IAO_0000115 xml:lang="en">A gene of an organism of Eukaryota.</obo:IAO_0000115>
+        <oboInOwl:id>OGG:2000002759</oboInOwl:id>
+        <rdfs:label xml:lang="en">gene of Eukaryota</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_2000009606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_2000009606">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2000002759"/>
+        <obo:IAO_0000115 xml:lang="en">A gene of an organism of Homo sapiens.</obo:IAO_0000115>
+        <oboInOwl:id>OGG:2000009606</oboInOwl:id>
+        <rdfs:label xml:lang="en">gene of Homo sapiens</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_2060009606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_2060009606">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2000009606"/>
+        <obo:IAO_0000115 xml:lang="en">A gene of Homo sapiens that has a protein-coding gene disposition.</obo:IAO_0000115>
+        <oboInOwl:id>OGG:2060009606</oboInOwl:id>
+        <rdfs:label xml:lang="en">protein-coding gene of Homo sapiens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000000629 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000000629">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060009606"/>
+        <oboInOwl:hasDbXref>Ensembl:ENSG00000243649</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HGNC:1037</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:138470</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">AHUS4</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">BF</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>OGG:3000000629</oboInOwl:id>
+        <rdfs:label xml:lang="en">CFB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000000718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000000718">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060009606"/>
+        <oboInOwl:hasDbXref>Ensembl:ENSG00000125730</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HGNC:1318</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:120700</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">AHUS5</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>OGG:3000000718</oboInOwl:id>
+        <rdfs:label xml:lang="en">C3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000003075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000003075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060009606"/>
+        <oboInOwl:hasDbXref>Ensembl:ENSG00000000971</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HGNC:4883</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:134370</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">AHUS1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">FH</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">HF1</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>OGG:3000003075</oboInOwl:id>
+        <rdfs:label xml:lang="en">CFH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000003426 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000003426">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060009606"/>
+        <oboInOwl:hasDbXref>Ensembl:ENSG00000205403</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HGNC:5394</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:217030</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">AHUS3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">FI</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>OGG:3000003426</oboInOwl:id>
+        <rdfs:label xml:lang="en">CFI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000004179 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000004179">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060009606"/>
+        <oboInOwl:hasDbXref>Ensembl:ENSG00000117335</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HGNC:6953</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:120920</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">AHUS2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">MCP</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>OGG:3000004179</oboInOwl:id>
+        <rdfs:label xml:lang="en">CD46</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000007056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000007056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060009606"/>
+        <oboInOwl:hasDbXref>Ensembl:ENSG00000178726</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HGNC:11784</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:188040</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">AHUS6</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">CD141</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">TM</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>OGG:3000007056</oboInOwl:id>
+        <rdfs:label xml:lang="en">THBD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000007450 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000007450">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060009606"/>
+        <oboInOwl:hasDbXref>Ensembl:ENSG00000110799</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HGNC:12726</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:613160</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">F8VWF</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">VWD</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>OGG:3000007450</oboInOwl:id>
+        <rdfs:label xml:lang="en">VWF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000008526 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000008526">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060009606"/>
+        <oboInOwl:hasDbXref>Ensembl:ENSG00000153933</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HGNC:2852</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:601440</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">DAGK5</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">NPHS7</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>OGG:3000008526</oboInOwl:id>
+        <rdfs:label xml:lang="en">DGKE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000011093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000011093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060009606"/>
+        <oboInOwl:hasDbXref>Ensembl:ENSG00000160323</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HGNC:1366</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:604134</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">ADAM-TS13</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">ADAMTS-13</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">VWFCP</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">vWF-CP</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>OGG:3000011093</oboInOwl:id>
+        <rdfs:label xml:lang="en">ADAMTS13</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/tma#caplacizumab_treatment -->
+
+    <owl:Class rdf:about="http://example.org/tma#caplacizumab_treatment">
+        <rdfs:subClassOf rdf:resource="http://example.org/tma#TherapeuticAgent"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C128625"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002606"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0018896"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002606"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0019737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Caplacizumab (therapeutic use in TMA/TTP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/tma#corticosteroid_treatment -->
+
+    <owl:Class rdf:about="http://example.org/tma#corticosteroid_treatment">
+        <rdfs:subClassOf rdf:resource="http://example.org/tma#TherapeuticAgent"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50858"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002606"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0018896"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Corticosteroid (therapeutic use in acquired TTP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/tma#eculizumab_treatment -->
+
+    <owl:Class rdf:about="http://example.org/tma#eculizumab_treatment">
+        <rdfs:subClassOf rdf:resource="http://example.org/tma#TherapeuticAgent"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48386"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002606"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001549"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002606"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0019737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Eculizumab (therapeutic use in aHUS/TMA)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/tma#ravulizumab_treatment -->
+
+    <owl:Class rdf:about="http://example.org/tma#ravulizumab_treatment">
+        <rdfs:subClassOf rdf:resource="http://example.org/tma#TherapeuticAgent"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C124657"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002606"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001549"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002606"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0019737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Ravulizumab (therapeutic use in aHUS/TMA)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/tma#rituximab_treatment -->
+
+    <owl:Class rdf:about="http://example.org/tma#rituximab_treatment">
+        <rdfs:subClassOf rdf:resource="http://example.org/tma#TherapeuticAgent"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C1702"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002606"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0018896"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Rituximab (therapeutic use in acquired TTP)</rdfs:label>
+    </owl:Class>
+    
+
+
+
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Clinical Trial Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+    <!-- http://example.org/tma#NCT02553317 -->
+
+    <owl:Class rdf:about="http://example.org/tma#NCT02553317">
+        <rdfs:subClassOf rdf:resource="http://example.org/tma#ClinicalTrial"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/tma#investigatesTherapy"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C128625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/tma#targetedDisease"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0018896"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/tma#targetedDisease"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0019737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002200"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001873"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002200"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001937"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <tma:hasNCTId>NCT02553317</tma:hasNCTId>
+        <tma:hasTrialPhase>Phase III</tma:hasTrialPhase>
+        <tma:hasTrialStatus>Completed</tma:hasTrialStatus>
+        <obo:IAO_0000115 xml:lang="en">HERCULES trial — Phase III double-blind, placebo-controlled RCT evaluating caplacizumab in acquired TTP. Established caplacizumab as the first approved targeted therapy for TTP, demonstrating faster platelet recovery and reduced TTP-related death, recurrence, and thromboembolic events.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">NCT02553317 HERCULES (caplacizumab in acquired TTP; Phase III, Completed)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/tma#NCT03922308 -->
+
+    <owl:Class rdf:about="http://example.org/tma#NCT03922308">
+        <rdfs:subClassOf rdf:resource="http://example.org/tma#ClinicalTrial"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/tma#investigatesTherapy"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169784"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/tma#targetedDisease"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0018896"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/tma#targetedDisease"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0019737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002200"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001873"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002200"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001937"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <tma:hasNCTId>NCT03922308</tma:hasNCTId>
+        <tma:hasTrialPhase>Phase II</tma:hasTrialPhase>
+        <tma:hasTrialStatus>Completed</tma:hasTrialStatus>
+        <obo:IAO_0000115 xml:lang="en">Phase 2 double-blind, placebo-controlled RCT evaluating recombinant ADAMTS13 (apadamtase alfa / SHP655) added to standard of care in acquired TTP. Explores enzyme replacement as an alternative to plasma exchange for restoring ADAMTS13 activity.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">NCT03922308 (recombinant ADAMTS13 in acquired TTP; Phase II, Completed)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/tma#NCT06831058 -->
+
+    <owl:Class rdf:about="http://example.org/tma#NCT06831058">
+        <rdfs:subClassOf rdf:resource="http://example.org/tma#ClinicalTrial"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/tma#investigatesTherapy"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C171817"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/tma#targetedDisease"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0018896"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002200"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001873"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002200"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001937"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <tma:hasNCTId>NCT06831058</tma:hasNCTId>
+        <tma:hasTrialPhase>Phase II</tma:hasTrialPhase>
+        <tma:hasTrialStatus>Recruiting</tma:hasTrialStatus>
+        <obo:IAO_0000115 xml:lang="en">Pilot study of efgartigimod alfa (neonatal Fc receptor inhibitor) in immune-mediated TTP. Efgartigimod depletes pathogenic IgG anti-ADAMTS13 autoantibodies by blocking FcRn-mediated IgG recycling, offering a novel immunomodulatory approach distinct from rituximab.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">NCT06831058 (efgartigimod alfa in immune-mediated TTP; Phase II, Recruiting)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/tma#NCT04889430 -->
+
+    <owl:Class rdf:about="http://example.org/tma#NCT04889430">
+        <rdfs:subClassOf rdf:resource="http://example.org/tma#ClinicalTrial"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/tma#investigatesTherapy"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_229652"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/tma#targetedDisease"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001549"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/tma#targetedDisease"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0019737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002200"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001919"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002200"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001873"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <tma:hasNCTId>NCT04889430</tma:hasNCTId>
+        <tma:hasTrialPhase>Phase III</tma:hasTrialPhase>
+        <tma:hasTrialStatus>Active not recruiting</tma:hasTrialStatus>
+        <obo:IAO_0000115 xml:lang="en">Phase 3 single-arm open-label trial of iptacopan (oral factor B inhibitor) in complement inhibitor-naive adult aHUS patients. Iptacopan blocks the alternative pathway proximal to C5, offering a twice-daily oral alternative to intravenous anti-C5 monoclonal antibodies.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">NCT04889430 (iptacopan in aHUS; Phase III, Active not recruiting)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/tma#NCT02205541 -->
+
+    <owl:Class rdf:about="http://example.org/tma#NCT02205541">
+        <rdfs:subClassOf rdf:resource="http://example.org/tma#ClinicalTrial"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/tma#investigatesTherapy"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48386"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/tma#targetedDisease"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001549"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/tma#targetedDisease"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0019737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002200"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001919"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002200"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001937"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <tma:hasNCTId>NCT02205541</tma:hasNCTId>
+        <tma:hasTrialPhase>Phase III</tma:hasTrialPhase>
+        <tma:hasTrialStatus>Completed</tma:hasTrialStatus>
+        <obo:IAO_0000115 xml:lang="en">ECULISHU — first prospective randomized placebo-controlled trial of eculizumab in pediatric STEC-HUS. This landmark study found that complement inhibition does not benefit typical STEC-HUS, clarifying the pathophysiological distinction from aHUS and establishing that STEC-HUS management remains supportive.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">NCT02205541 ECULISHU (eculizumab in pediatric STEC-HUS; Phase III, Completed)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/tma#NCT06389474 -->
+
+    <owl:Class rdf:about="http://example.org/tma#NCT06389474">
+        <rdfs:subClassOf rdf:resource="http://example.org/tma#ClinicalTrial"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/tma#targetedDisease"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001549"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002200"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001919"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002200"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001937"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <tma:hasNCTId>NCT06389474</tma:hasNCTId>
+        <tma:hasTrialPhase>Phase III</tma:hasTrialPhase>
+        <tma:hasTrialStatus>Recruiting</tma:hasTrialStatus>
+        <rdfs:comment xml:lang="en">Investigational agent INM004 (polyclonal anti-Shiga toxin antibody) has no CHEBI/NCIT ontology term assigned.</rdfs:comment>
+        <obo:IAO_0000115 xml:lang="en">Phase 3 RCT of INM004 (polyclonal anti-Shiga toxin antibody preparation) in pediatric STEC-HUS. INM004 neutralizes circulating Shiga toxin 1 and 2 to prevent endothelial injury, addressing an unmet need as no disease-modifying therapy currently exists for STEC-HUS.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">NCT06389474 (INM004 in pediatric STEC-HUS; Phase III, Recruiting)</rdfs:label>
+    </owl:Class>
+    
+
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Therapeutic Agent Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- http://example.org/tma#apadamtase_alfa_treatment -->
+
+    <owl:Class rdf:about="http://example.org/tma#apadamtase_alfa_treatment">
+        <rdfs:subClassOf rdf:resource="http://example.org/tma#TherapeuticAgent"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169784"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002606"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0018896"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002606"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0019737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Apadamtase Alfa / Recombinant ADAMTS13 (therapeutic use in TTP/TMA)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/tma#efgartigimod_treatment -->
+
+    <owl:Class rdf:about="http://example.org/tma#efgartigimod_treatment">
+        <rdfs:subClassOf rdf:resource="http://example.org/tma#TherapeuticAgent"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C171817"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002606"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0018896"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Efgartigimod Alfa (therapeutic use in immune-mediated TTP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/tma#iptacopan_treatment -->
+
+    <owl:Class rdf:about="http://example.org/tma#iptacopan_treatment">
+        <rdfs:subClassOf rdf:resource="http://example.org/tma#TherapeuticAgent"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_229652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002606"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001549"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002606"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0019737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Iptacopan / oral factor B inhibitor (therapeutic use in aHUS/TMA)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/tma#INM004_treatment -->
+
+    <owl:Class rdf:about="http://example.org/tma#INM004_treatment">
+        <rdfs:subClassOf rdf:resource="http://example.org/tma#TherapeuticAgent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002606"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001549"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">INM004 is a polyclonal anti-Shiga toxin antibody preparation (investigational; no CHEBI/NCIT term assigned). It neutralizes circulating Shiga toxin 1 and 2 to prevent endothelial injury in STEC-HUS.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">INM004 (polyclonal anti-Shiga toxin antibody; investigational, no CHEBI/NCIT term)</rdfs:label>
+    </owl:Class>
+    
+
+
+
+
+
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0001549">
+        <obo:IAO_0000115 xml:lang="en">Acute kidney injury associated with microangiopathic hemolytic anemia and thrombocytopenia.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>DOID:12554</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:D59.3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D006463</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C75545</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Orphanet:544458</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:111407006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0019061</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">HUS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">hemolytic uremic syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0001549</oboInOwl:id>
+        <rdfs:label xml:lang="en">hemolytic-uremic syndrome</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0018896">
+        <obo:IAO_0000115 xml:lang="en">Thrombotic thrombocytopenic purpura (TTP) is an aggressive and life-threatening form of thrombotic microangiopathy (TMA) characterized by profound peripheral thrombocytopenia, microangiopathic hemolytic anemia (MAHA) and organ failure of variable severity and is comprised of congenital TTP and acquired TTP.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>DOID:10772</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D011697</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C78797</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Orphanet:54057</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:78129009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0034155</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Moschcowitz disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">TTP</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0018896</oboInOwl:id>
+        <rdfs:label xml:lang="en">thrombotic thrombocytopenic purpura</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0019737">
+        <obo:IAO_0000115 xml:lang="en">The syndromes of microangiopathic hemolytic anemia, thrombocytopenia, and variable signs of organ impairment, due to platelet aggregation in the microcirculation.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GARD:19227</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:M31.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MEDGEN:403479</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D057049</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C62605</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Orphanet:93573</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:126729006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C2717961</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">TMA</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0019737</oboInOwl:id>
+        <rdfs:label xml:lang="en">thrombotic microangiopathy</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
